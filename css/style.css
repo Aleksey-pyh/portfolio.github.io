@@ -510,6 +510,9 @@ textarea {
     z-index: 1000;
 
 }
+.head_wrapper_active {
+    margin-left: 37px;
+}
 .wrapper_active{
     width: 70%;
 }
@@ -828,10 +831,13 @@ footer{
     .nav_item:first-child{
         padding-left: 25px;
     }
+    .footer_rows{
+        grid-template-columns: repeat(2,2fr); 
+    }
 }
 @media screen and (max-width: 584px ){
     .logo{
-        padding-bottom: 10px;
+        
         font-size:28px;
     }
 }

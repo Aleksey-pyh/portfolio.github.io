@@ -7,6 +7,7 @@
     const intro_title = document.querySelector('.intro_title');
     const intro_text = document.querySelector('.intro_text');
     const header = document.querySelector('.header');
+    const head_wrapper  = document.querySelector('.head_wrapper ')
     window.onscroll = ()=> {
         if(window.pageYOffset > 30){
             wrapper.classList.add('wrapper_active');            
@@ -14,12 +15,14 @@
             greeting.classList.add('greeting_active');
             intro_mask.classList.add('intro_mask_active');
             header.classList.add('header_active');
+            head_wrapper.classList.add('head_wrapper_active')
         } else if(window.pageYOffset < 1){
             wrapper.classList.remove('wrapper_active');            
             nav_item.classList.remove('nav_item_active');
             greeting.classList.remove('greeting_active');
             intro_mask.classList.remove('intro_mask_active');
             header.classList.remove('header_active');
+            head_wrapper .classList.remove('head_wrapper_active')
         }
     
         if(window.pageYOffset > 1300){
