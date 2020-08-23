@@ -1,5 +1,4 @@
-
-<$php
+<?php
 ini_set('display_errors','On');
 error_reporting('E_ALL');
 $name = $_POST['name'];
@@ -18,14 +17,14 @@ $name = trim($name);
 $email = trim($email);
 $message = trim($message);
 
-echo $name;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $message;
+//echo $name;
+//echo "<br>";
+//echo $email;
+//echo "<br>";
+//echo $message;
 
-mail("alexey.pyh@yandex.ru", "Заявка с сайта", "Имя:".$name.". E-mail: ".$email "Текст письма:".$message,"From: example2@mail.ru \r\n");
-if (mail("alexey.pyh@yandex.ru", "Заявка с сайта", "Имя:".$name.". E-mail: ".$email "Текст письма:".$message,"From: example2@mail.ru \r\n"))
+mail("alexey.pyh@yandex.ru", "Заявка с сайта", "Имя:".$name.". E-mail: ".$email "Текст письма:".$message,"From: info@aleksey-pyh.github.io/portfolio.github.io \r\n");
+if (mail("alexey.pyh@yandex.ru", "Заявка с сайта", "Имя:".$name.". E-mail: ".$email "Текст письма:".$message,"From: info@aleksey-pyh.github.io/portfolio.github.io \r\n"))
  {
     echo "сообщение успешно отправлено";
 } else {
