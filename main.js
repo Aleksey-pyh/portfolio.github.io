@@ -22,7 +22,7 @@
             header.classList.remove('header_active');
         }
     
-        if(window.pageYOffset > 1500){
+        if(window.pageYOffset > 1300){
             greeting.classList.add('greeting_foot');
             greeting_hi.classList.add('greeting_hi_foot');
             intro_mask.classList.add('intro_mask_foot');

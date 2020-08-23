@@ -473,7 +473,7 @@ textarea {
 
 }
 .intro_mask_foot{
-    margin:5px 15px 5px 5px;
+    margin:5px 150px 5px 5px;
 }
 
 .intro_title{
@@ -536,7 +536,6 @@ padding-right: 40px;
 }
 .skill{
     background: #FFFAF2;
-    height: 800px;
     width: 100%;
 }
 .topornaya_zaglyshka{
@@ -587,7 +586,11 @@ padding-right: 40px;
 }
 .skill_table{
     margin-top: 79px;
+    
     }
+.wrap_left:first-child{
+    padding-bottom: 79px;
+}    
 /*skill style                                   e*/
 /*portfolio style ................................s*/
 .portfolio{
@@ -767,7 +770,7 @@ footer{
         margin-right: 60px;        
     }
     .intro_mask_foot{
-        margin-right: 20px;
+        margin-right: 50px;
     }
 }
 @media screen and (max-width:1200px){
