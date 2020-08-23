@@ -137,8 +137,7 @@ a:focus {
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-a:active,
-a:hover {
+a:active,a:hover {
     outline: 0;
 }
 
@@ -382,6 +381,8 @@ textarea {
     min-height: 100vh;
     width: 100%;
 }
+
+
 .navigator{
     padding:63px 0 120px 126px;
     display: flex;
@@ -389,6 +390,9 @@ textarea {
     justify-content: space-between;
     align-items: flex-end;
     transition: .5s all;
+}
+.navigator_foot{
+    padding:63px 0 40px 126px;
 }
 .logo{
     display: flex;
@@ -419,12 +423,10 @@ textarea {
     
 }
 .nav_link:active {
-    font-size: 24px;
-    line-height: 29px;
-    font-weight: bold;
+    color: #C66C49;
 }
 .nav_link:hover{
-    opacity: .5;
+    text-decoration: underline;
 }
 .nav_link_logo{
     font-size: 24px;
@@ -439,33 +441,57 @@ textarea {
     margin-bottom: 25px;
     transition: .5s all;
 }
+.greeting_foot{
+    margin-bottom: 10px;
+}
 .greeting_hi{
     font-size: 64px;
     line-height: 78px;
     margin-bottom: 25px;
+    transition: .5s all;
+}
+.greeting_hi_foot{
+    margin-bottom: 10px;
 }
 .greeting h1{
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 106px;
+    transition: .5s all;
 }
-
+.greeting_foot h1{
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 45px;
+}
 .intro_mask{
     background: rgba(196, 196, 196, 0.5);
     margin-left:75px;
     margin-right: 203px;
     margin-bottom: 20px;
+    transition: .5s all;
 
 }
+.intro_mask_foot{
+    margin:5px 15px 5px 5px;
+}
+
 .intro_title{
     padding:33px 0 35px 51px;
     
+}
+.intro_title_foot{
+    padding: 15px 5px 0 51px;
 }
 .intro_text{
     font-size: 18px;
     line-height: 30px;
     padding: 0 4px 35px 51px;
     transition: .5s all;
+}
+.intro_text_foot{
+   padding:10px 4px 5px 51px;
+    
 }
 
 
@@ -499,6 +525,11 @@ padding-right: 40px;
 .skill{
     background: #FFFAF2;
     height: 800px;
+    width: 100%;
+}
+.topornaya_zaglyshka{
+    background: #FFFAF2;
+    height: 8px;
     width: 100%;
 }
 .scale_skill{
@@ -602,6 +633,7 @@ padding-right: 40px;
 }
 
 /*portfolio style ................................e*/
+
 /*contact style .................................s*/
 .contact{
     height: 693px;
@@ -643,3 +675,31 @@ h2{
     color:black;
     
 }
+/*contact style .................................e*/
+
+/*footer style ..................................s*/
+footer{
+    position: relative;
+    bottom:0;
+    left:0;
+    width: 100%;
+    background: #8B4136;
+    min-height: 25%;
+    z-index: 1000;
+}
+.footer_title{
+    padding-left:37px;
+}
+.footer_rows{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 35px;
+    padding:15px 10px 15px 0;
+}
+
+.footer_list:first-child{
+    padding-left: 51px;
+}
+
+/*footer style ..................................e*/

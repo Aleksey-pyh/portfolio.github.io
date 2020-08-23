@@ -8,21 +8,21 @@
     </head>
 </html>
 <body>
-    <header>
-        <div class="wrapper ">
-            <div class="wrap_mask">
-                <nav class="navigator">
+    <header class='header'>
+        <div class="wrapper " >
+            <div class="wrap_mask ">
+                <nav class="navigator ">
                     <div class="logo"> <a href="#" class="nav_link_logo">Portfolio</a></div>
                     <ul class="nav_list">
                         
-                        <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">Skills</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+                        <li class="nav_item"><a href="#home" class="nav_link js-scroll">Home</a></li>
+                        <li class="nav_item"><a href="#portfolio" class="nav_link js-scroll">Portfolio</a></li>
+                        <li class="nav_item"><a href="#skill" class="nav_link js-scroll">Skills</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link js-scroll">Contact</a></li>
                     </ul>
                 </nav>
-                <div class="greeting ">
-                    <p class="greeting_hi">
+                <div class=" greeting  ">
+                    <p class="greeting_hi ">
                         Hi, It’s Aleksey Pukhov
                     </p>
                     <h1>
@@ -30,11 +30,11 @@
                     </h1>
                     
                 </div>
-                <div class="intro_mask">
-                    <h2 class="intro_title">
+                <div class="intro_mask ">
+                    <h2 class="intro_title ">
                         About
                     </h2>
-                    <p class="intro_text">
+                    <p class="intro_text ">
                         Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. 
                         Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
                         <br><br>Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
@@ -46,7 +46,10 @@
     </header>
     <main>
         <div class="main_wrap">
-            <section class="skill">
+            <div class="topornaya_zaglyshka "id="home">
+
+            </div>
+            <section class="skill" id='skill'>
                 <h2 class="title_skill">Skill</h2>
                 <table class="skill_table">
                     <tr class="border_table">
@@ -96,7 +99,7 @@
 
             <!--Portfolio s-->
 
-            <section class="portfolio ">
+            <section class="portfolio " id="portfolio">
                 <h2 class="title_portfolio">
                     Portfolio
                 </h2>
@@ -142,7 +145,7 @@
             </section>
 
                 
-            <section class="contact">
+            <section class="contact" id='contact'>
                 <h2>Contact</h2>
                 <form action="send" method="POST" class="contact_form">
                     <p class="description_contact">
@@ -165,7 +168,32 @@
         </div>
     </main>
     <footer>
-
+        <h2 class="footer_titlle">Get in touch</h2>
+        <div class="footer_rows">
+            <div class="footer_row">
+                <ul class="footer_list">
+                    <li class="footer_item">Dribbble</li>
+                    <li class="footer_item">Behance</li>
+                    <li class="footer_item">CodePen</li>
+                    <li class="footer_item">GitHub</li>
+                    <li class="footer_item">Medium</li>
+                </ul>
+            </div>
+            <div class="footer_row">
+                <ul class="footer_list">
+                    <li class="footer_item">VK</li>
+                    <li class="footer_item">Facebook</li>
+                    <li class="footer_item">Instagram</li>
+                    <li class="footer_item">Twitter</li>
+                </ul>
+            </div>
+            <div class="footer_row">
+                <ul class="footer_list">
+                    <li class="footer_item">alexey.pyh132@gmail.com</li>
+                    <li class="footer_item">+7930*****24</li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script src="main.js"></script>
 </body>
@@ -178,8 +206,4 @@
 
 
 
-<div class="scale_skill">
-    <span class="scale_skill_empty"><span class="scale_skill_complit"></span></span>
-    
-</div>
 
