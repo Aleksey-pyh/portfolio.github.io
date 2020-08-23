@@ -1,36 +1,34 @@
 (function (){
     const wrapper = document.querySelector('.wrapper');
-    const navigator = document.querySelector('.navigator');
     const nav_item = document.querySelector('.nav_item');
     const greeting = document.querySelector('.greeting');
     const intro_mask = document.querySelector('.intro_mask');
     const greeting_hi = document.querySelector('.greeting_hi');
     const intro_title = document.querySelector('.intro_title');
     const intro_text = document.querySelector('.intro_text');
+    const header = document.querySelector('.header');
     window.onscroll = ()=> {
-        if(window.pageYOffset > 1){
-            wrapper.classList.add('wrapper_active');
-            navigator.classList.add('navigator_active');
+        if(window.pageYOffset > 30){
+            wrapper.classList.add('wrapper_active');            
             nav_item.classList.add('nav_item_active');
             greeting.classList.add('greeting_active');
             intro_mask.classList.add('intro_mask_active');
+            header.classList.add('header_active');
         } else if(window.pageYOffset < 1){
-            wrapper.classList.remove('wrapper_active');
-            navigator.classList.remove('navigator_active');
+            wrapper.classList.remove('wrapper_active');            
             nav_item.classList.remove('nav_item_active');
             greeting.classList.remove('greeting_active');
             intro_mask.classList.remove('intro_mask_active');
+            header.classList.remove('header_active');
         }
     
         if(window.pageYOffset > 1500){
-            navigator.classList.add('navigator_foot');
             greeting.classList.add('greeting_foot');
             greeting_hi.classList.add('greeting_hi_foot');
             intro_mask.classList.add('intro_mask_foot');
             intro_title.classList.add('intro_title_foot');
             intro_text.classList.add('intro_text_foot');
-        } else{
-            navigator.classList.remove('navigator_foot');
+        } else{            
             greeting.classList.remove('greeting_foot');
             greeting_hi.classList.remove('greeting_hi_foot');
             intro_mask.classList.remove('intro_mask_foot');

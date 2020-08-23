@@ -8,19 +8,27 @@
     </head>
 </html>
 <body>
-    <header class='header'>
-        <div class="wrapper " >
-            <div class="wrap_mask ">
-                <nav class="navigator ">
-                    <div class="logo"> <a href="#" class="nav_link_logo">Portfolio</a></div>
-                    <ul class="nav_list">
-                        
-                        <li class="nav_item"><a href="#home" class="nav_link js-scroll">Home</a></li>
-                        <li class="nav_item"><a href="#portfolio" class="nav_link js-scroll">Portfolio</a></li>
-                        <li class="nav_item"><a href="#skill" class="nav_link js-scroll">Skills</a></li>
-                        <li class="nav_item"><a href="#contact" class="nav_link js-scroll">Contact</a></li>
-                    </ul>
+    <header class='header' >
+        <div class="head_wrapper ">
+            <div class="wrap_head">
+                <div class="logo"> <a href="#" class="nav_link_logo">Portfolio</a></div>
+                <nav>
+                <ul class="nav_list">
+                    
+                    <li class="nav_item"><a href="#" class="nav_link js-scroll">Home</a></li>
+                    <li class="nav_item"><a href="#portfolio" class="nav_link js-scroll">Portfolio</a></li>
+                    <li class="nav_item"><a href="#skill" class="nav_link js-scroll">Skills</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link js-scroll">Contact</a></li>
+                </ul>
                 </nav>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="wrapper "  >
+            <div class="wrap_mask ">
+                
                 <div class=" greeting  ">
                     <p class="greeting_hi ">
                         Hi, It’s Aleksey Pukhov
@@ -42,15 +50,12 @@
                 </div>
             </div>
         </div>
-        
-    </header>
-    <main>
         <div class="main_wrap">
-            <div class="topornaya_zaglyshka "id="home">
+            <div class="topornaya_zaglyshka" id="home"></div>
 
-            </div>
-            <section class="skill" id='skill'>
-                <h2 class="title_skill">Skill</h2>
+        <section class="skill">
+            <div class="wrap_left">
+                <h2 class="title_skill" id='skill'>Skill</h2>
                 <table class="skill_table">
                     <tr class="border_table">
                       <td class="first_element_table first_td">Profile</td>
@@ -100,6 +105,7 @@
             <!--Portfolio s-->
 
             <section class="portfolio " id="portfolio">
+            <div class="wrap_left">
                 <h2 class="title_portfolio">
                     Portfolio
                 </h2>
@@ -142,10 +148,12 @@
                     <button class=" button_portfolio min"> <img src="img/butt_left.svg" alt=""> </button>
                     <button class=" button_portfolio plus"> <img src="img/butt_rigth.svg" alt=""> </button>
                 </div>
+            </div>   
             </section>
 
                 
             <section class="contact" id='contact'>
+            <div class="wrap_left">
                 <h2>Contact</h2>
                 <form action="send" method="POST" class="contact_form">
                     <p class="description_contact">
@@ -164,11 +172,14 @@
                         <input type=submit value="Send" class="submit_contact">
                     </div>
                 </form>
+            </div>
             </section>
+
+
         </div>
     </main>
     <footer>
-        <h2 class="footer_titlle">Get in touch</h2>
+        <h2 class="footer_title">Get in touch</h2>
         <div class="footer_rows">
             <div class="footer_row">
                 <ul class="footer_list">
