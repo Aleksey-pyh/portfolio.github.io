@@ -46,7 +46,7 @@
     </header>
     <main>
         <div class="main_wrap">
-            <div class="skill">
+            <section class="skill">
                 <h2 class="title_skill">Skill</h2>
                 <table class="skill_table">
                     <tr class="border_table">
@@ -92,11 +92,11 @@
                       </tr>
                   </table>
                 
-            </div>
+            </section>
 
             <!--Portfolio s-->
 
-            <div class="portfolio ">
+            <section class="portfolio ">
                 <h2 class="title_portfolio">
                     Portfolio
                 </h2>
@@ -139,12 +139,29 @@
                     <button class=" button_portfolio min"> <img src="img/butt_left.svg" alt=""> </button>
                     <button class=" button_portfolio plus"> <img src="img/butt_rigth.svg" alt=""> </button>
                 </div>
-            </div>
+            </section>
 
                 
-            <div class="contacts">
-
-            </div>
+            <section class="contact">
+                <h2>Contact</h2>
+                <form action="send.php" method="POST" class="contact_form">
+                    <p class="description_contact">
+                        Please leave your contact details and a message, so that I can contact you as soon as possible.
+                    </p>
+                    <div class="name">
+                        <input type="text" name="name" placeholder="Please enter your Name..." class="name_input" required>
+                    </div>
+                    <div class="e_mail">
+                        <input type="text" name="email" placeholder="Please enter your e-mail..." class="e_mail_input" required>
+                    </div>
+                    <div class="message">
+                        <textarea rows=10 name="message" placeholder="Please enter your message..." required class="message_area"></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type=submit value="Send" class="submit_contact">
+                    </div>
+                </form>
+            </section>
         </div>
     </main>
     <footer>

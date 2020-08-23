@@ -459,9 +459,7 @@ textarea {
 }
 .intro_title{
     padding:33px 0 35px 51px;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
+    
 }
 .intro_text{
     font-size: 18px;
@@ -522,9 +520,6 @@ padding-right: 40px;
     display: block;
 }
 .title_skill{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
     padding-top:200px;
     padding-left:81px;
 }
@@ -559,13 +554,12 @@ padding-right: 40px;
     position: relative;
 }
 
-.title_portfolio{
-    padding-top:36px;
-    padding-left:81px;
+.h2{
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
 }
+
 .subtitle_portfolio{
     padding-left:81px;
     padding-top: 78px;
@@ -608,8 +602,44 @@ padding-right: 40px;
 }
 
 /*portfolio style ................................e*/
-.contacts{
+/*contact style .................................s*/
+.contact{
     height: 693px;
     width: 100%;
-    background: black;
+    background: #FFFAF2;
+}
+.description_contact{
+    padding-top: 75px;
+    padding-bottom: 35px;
+}
+.contact_form{
+    padding: 25px 30px 25px 81px;
+}
+.name_input, .e_mail_input, .message_area{
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size:14px;
+}
+h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top:36px;
+    padding-left:81px;
+}
+.submit_contact{
+    background: #C66C49;
+    height: 50px;
+    width: 250px;
+    color:white;
+    border-radius: 2px;
+}
+.submit_contact:hover{
+    background:white;
+    border: 2px solid black;
+    color:black;
+    
 }
