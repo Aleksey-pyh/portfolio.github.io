@@ -919,4 +919,7 @@ footer{
     td, p{
         font-size:14px;
     }
+    .greeting{
+        padding-left: 5px;
+    }
 }
