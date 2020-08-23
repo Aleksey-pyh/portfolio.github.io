@@ -718,6 +718,9 @@ footer{
         padding-left: 35px;
         
     }
+    .header{
+        width: 60%;
+    }
 }
 @media screen and (max-width:1470px){
     .scale_skill_empty{
@@ -748,6 +751,7 @@ footer{
     .wrapper_active{
         width: 60%;
     }
+    
     .nav_item:last-child {
         padding-right: 20px;
     }
