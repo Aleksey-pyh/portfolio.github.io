@@ -924,10 +924,10 @@ footer{
         width: auto;
     }
     .intro_text{
-        padding: 10px 4px 5px 15px;
+        padding: 10px 4px 15px 15px;
     }
     .intro_text_foot{
-        padding: 10px 4px 5px 15px;
+        padding: 10px 4px 15px 15px;
     }
     .intro_title_foot {
         padding: 15px 5px 5px 15px;
@@ -937,6 +937,6 @@ footer{
     }
     .intro_mask, .intro_mask_active, .intro_mask_foot{
         padding:0 0 20px 0;
-        margin: 5px 4px;
+        margin: 15px 4px;
     }
 }
