@@ -912,14 +912,31 @@ footer{
     .nav_item:first-child {
         padding-left: 5px;
     }
-    .intro_mask {
-        margin-left: 4px;
-        margin-right: 4px;
-    }
+    
     td, p{
         font-size:14px;
     }
     .greeting{
         padding-left: 5px;
+    }
+    
+    .wrapper_active{
+        width: auto;
+    }
+    .intro_text{
+        padding: 10px 4px 5px 15px;
+    }
+    .intro_text_foot{
+        padding: 10px 4px 5px 15px;
+    }
+    .intro_title_foot {
+        padding: 15px 5px 5px 15px;
+    }
+    .intro_title {
+        padding: 15px 5px 5px 15px;
+    }
+    .intro_mask, .intro_mask_active, .intro_mask_foot{
+        padding:0 0 20px 0;
+        margin: 5px 4px;
     }
 }
